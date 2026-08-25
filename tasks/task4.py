@@ -1,0 +1,8 @@
+"""
+USE COMPARISON OPERATOR TO FIND OUT WHETHER 'A' GIVEN VARIABLE IS GREATER THAN 'B' OR NOT? A = 34 and B=80
+"""
+
+a = 34
+b = 80
+
+print("is a > b:", a > b)

@@ -1,0 +1,9 @@
+1. python source code
+2. tokenization, parsing and syntax checking - Abstract Syntax Tree is made
+    Source character -> tokens -> AST
+3. CPython Compiler : converts the AST into a code object containing  CPython bytecode.
+4. CPython Bytecode interpreter : the evaluation loop, commonly described pedagogically as the Python Virtual Machine (PVM) ,
+                                 executes bytecodes instructions within execution frames
+5. Program Outcome : produces console output
+
+Bytecode for imported modules may be cached as .pyc files inside __pycache__.
