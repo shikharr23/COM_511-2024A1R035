@@ -1,8 +1,5 @@
 # program to create records of n students. store each student record as a dictionary containing roll number , name , branch, and marks . store all records in a list and search for a  student using roll number ( roll no must be unique )
-
-
 n = int(input("Enter number of students: "))
-
 students = []
 
 for i in range(n):
@@ -20,7 +17,7 @@ for i in range(n):
         "branch": branch,
         "marks": marks
     }
-
+                        
     students.append(student)
 
 search_roll = int(input("\nEnter roll number to search: "))
